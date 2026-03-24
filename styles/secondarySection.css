@@ -1,0 +1,91 @@
+.secondarySection {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.imgSecondary {
+    width: 1120px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.secondarySection > aside > p:first-of-type {
+    color: var(--text-headline);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.secondarySection > aside > p:last-of-type {
+    font-size: var(--paragraph);
+    color: var(--text-secondary);
+    font-weight: normal;
+}
+
+h2 {
+    color: var(--text-primary);
+    font-size: var(--h2);
+    margin: 0;
+}
+
+h3 {
+    font-size: var(--h3);
+    color: var(--text-primary);
+    margin: 20px 0 0 0;
+}
+
+.inforSecondary > p {
+    font-size: var(--paragraph);
+    color: var(--text-secondary);
+    margin: 5px 0;
+    font-weight: 200;
+}
+
+.paragraph {
+    color: var(--text-secondary);
+    font-weight: bold;
+    margin: 0;
+}
+
+.sectionTheHistory {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 20px 0 0 0;
+}
+
+ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+li {
+    color: var(--accent-blue);
+    font-size: var(--paragraph);
+    font-weight: bold;
+}
+
+.colorUl li{
+    color: var(--accent-purple);
+}
+
+.colorUl li:nth-child(2){
+    color: var(--accent-pink);
+}
+
+.colorUl li:nth-child(3){
+    color: var(--accent-orange);
+}
+
+span hr {
+    margin: 0;
+    padding: 0;
+}
+
+.paragraphUlt {
+    margin: 0;
+    color: var(--text-secondary);
+    text-align: center;
+    font-size: var(--paragraph);
+}
